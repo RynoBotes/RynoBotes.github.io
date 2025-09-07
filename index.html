@@ -1,10 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Dine With Us 🍽️</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          background: #f8f9fa;
+          color: #333;
+        }
+        header {
+          background: #2c3e50;
+          color: white;
+          padding: 1rem;
+          text-align: center;
+        }
+        nav {
+          background: #34495e;
+          padding: 0.5rem;
+          text-align: center;
+        }
+        nav a {
+          color: white;
+          margin: 0 1rem;
+          text-decoration: none;
+        }
+        nav a:hover {
+          text-decoration: underline;
+        }
+        main {
+          padding: 2rem;
+          max-width: 900px;
+          margin: auto;
+        }
+        section {
+          margin-bottom: 3rem;
+        }
+        h2 {
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 0.5rem;
+          margin-bottom: 1rem;
+          color: #2c3e50;
+        }
+        .card {
+          background: white;
+          padding: 1.5rem;
+          margin: 1rem 0;
+          border-radius: 8px;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .allergy {
+          background: #ffecec;
+          border-left: 5px solid #e74c3c;
+          padding: 0.5rem 1rem;
+          margin: 0.5rem 0;
+        }
+        footer {
+          text-align: center;
+          padding: 1rem;
+          background: #2c3e50;
+          color: white;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello, world!</h1>
-<p>Welcome to my website hosted on GitHub Pages 🎉</p>
+<header>
+    <h1>Come Dine With Us 🍴</h1>
+    <p>Food, Friends, and Fun!</p>
+</header>
+
+<nav>
+    <a href="#participants">Participants</a>
+    <a href="#menus">Menus</a>
+    <a href="#allergies">Allergies</a>
+</nav>
+
+<main>
+    <section id="participants">
+        <h2>👩‍🍳 Participants</h2>
+        <div class="card">
+            <h3>Alice</h3>
+            <p>Loves Italian cuisine 🍝</p>
+        </div>
+        <div class="card">
+            <h3>Bob</h3>
+            <p>King of the grill 🍖</p>
+        </div>
+        <div class="card">
+            <h3>Clara</h3>
+            <p>Pastry master 🥐</p>
+        </div>
+    </section>
+
+    <section id="menus">
+        <h2>📖 Menus</h2>
+        <div class="card">
+            <h3>Alice’s Menu</h3>
+            <ul>
+                <li>Starter: Bruschetta</li>
+                <li>Main: Lasagna</li>
+                <li>Dessert: Tiramisu</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Bob’s Menu</h3>
+            <ul>
+                <li>Starter: Spicy Chicken Wings</li>
+                <li>Main: BBQ Ribs</li>
+                <li>Dessert: Apple Pie</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="allergies">
+        <h2>⚠️ Allergies</h2>
+        <div class="allergy">Alice: Allergic to peanuts 🥜</div>
+        <div class="allergy">Bob: Lactose intolerant 🥛</div>
+        <div class="allergy">Clara: No shellfish 🦐</div>
+    </section>
+</main>
+
+<footer>
+    <p>Come Dine With Us © 2025</p>
+</footer>
 </body>
 </html>
